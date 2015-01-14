@@ -1,0 +1,367 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F12E9111985706000A5AB51 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F12E9101985706000A5AB51 /* Cocoa.framework */; };
+		2F12E91B1985706000A5AB51 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2F12E9191985706000A5AB51 /* InfoPlist.strings */; };
+		2F12E91D1985706000A5AB51 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12E91C1985706000A5AB51 /* main.m */; };
+		2F12E9211985706000A5AB51 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2F12E91F1985706000A5AB51 /* Credits.rtf */; };
+		2F12E9241985706000A5AB51 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2F12E9231985706000A5AB51 /* AppDelegate.m */; };
+		2F12E9271985706000A5AB51 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2F12E9251985706000A5AB51 /* MainMenu.xib */; };
+		2F12E92A1985706000A5AB51 /* BLETest.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 2F12E9281985706000A5AB51 /* BLETest.xcdatamodeld */; };
+		2F5480EF19B7DDE900100E1D /* mute.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480EB19B7DDE900100E1D /* mute.scpt */; };
+		2F5480F019B7DDE900100E1D /* next.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480EC19B7DDE900100E1D /* next.scpt */; };
+		2F5480F119B7DDE900100E1D /* play_pause.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480ED19B7DDE900100E1D /* play_pause.scpt */; };
+		2F5480F219B7DDE900100E1D /* volume_decrease.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480EE19B7DDE900100E1D /* volume_decrease.scpt */; };
+		2F5480F419B7DDF400100E1D /* back.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480F319B7DDF400100E1D /* back.scpt */; };
+		2F5480F619B7DF7500100E1D /* volume_increase.scpt in Resources */ = {isa = PBXBuildFile; fileRef = 2F5480F519B7DF7500100E1D /* volume_increase.scpt */; };
+		2FF8CE8B1985BE5300DD54BF /* IOBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2FF8CE8A1985BE5300DD54BF /* IOBluetooth.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2F12E90D1985706000A5AB51 /* BLETest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BLETest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F12E9101985706000A5AB51 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2F12E9131985706000A5AB51 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2F12E9141985706000A5AB51 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2F12E9151985706000A5AB51 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2F12E9181985706000A5AB51 /* BLETest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "BLETest-Info.plist"; sourceTree = "<group>"; };
+		2F12E91A1985706000A5AB51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2F12E91C1985706000A5AB51 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2F12E91E1985706000A5AB51 /* BLETest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BLETest-Prefix.pch"; sourceTree = "<group>"; };
+		2F12E9201985706000A5AB51 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2F12E9221985706000A5AB51 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2F12E9231985706000A5AB51 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2F12E9261985706000A5AB51 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2F12E9291985706000A5AB51 /* BLETest.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BLETest.xcdatamodel; sourceTree = "<group>"; };
+		2F5480EB19B7DDE900100E1D /* mute.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = mute.scpt; sourceTree = "<group>"; };
+		2F5480EC19B7DDE900100E1D /* next.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = next.scpt; sourceTree = "<group>"; };
+		2F5480ED19B7DDE900100E1D /* play_pause.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = play_pause.scpt; sourceTree = "<group>"; };
+		2F5480EE19B7DDE900100E1D /* volume_decrease.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = volume_decrease.scpt; sourceTree = "<group>"; };
+		2F5480F319B7DDF400100E1D /* back.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = back.scpt; sourceTree = "<group>"; };
+		2F5480F519B7DF7500100E1D /* volume_increase.scpt */ = {isa = PBXFileReference; lastKnownFileType = file; path = volume_increase.scpt; sourceTree = "<group>"; };
+		2FF8CE8A1985BE5300DD54BF /* IOBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = IOBluetooth.framework; path = System/Library/Frameworks/IOBluetooth.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F12E90A1985706000A5AB51 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FF8CE8B1985BE5300DD54BF /* IOBluetooth.framework in Frameworks */,
+				2F12E9111985706000A5AB51 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F12E9041985706000A5AB51 = {
+			isa = PBXGroup;
+			children = (
+				2FF8CE8A1985BE5300DD54BF /* IOBluetooth.framework */,
+				2F12E9161985706000A5AB51 /* Dial */,
+				2F12E90F1985706000A5AB51 /* Frameworks */,
+				2F12E90E1985706000A5AB51 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2F12E90E1985706000A5AB51 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F12E90D1985706000A5AB51 /* BLETest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F12E90F1985706000A5AB51 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F12E9101985706000A5AB51 /* Cocoa.framework */,
+				2F12E9121985706000A5AB51 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2F12E9121985706000A5AB51 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2F12E9131985706000A5AB51 /* AppKit.framework */,
+				2F12E9141985706000A5AB51 /* CoreData.framework */,
+				2F12E9151985706000A5AB51 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2F12E9161985706000A5AB51 /* Dial */ = {
+			isa = PBXGroup;
+			children = (
+				2F5480F519B7DF7500100E1D /* volume_increase.scpt */,
+				2F5480F319B7DDF400100E1D /* back.scpt */,
+				2F5480EB19B7DDE900100E1D /* mute.scpt */,
+				2F5480EC19B7DDE900100E1D /* next.scpt */,
+				2F5480ED19B7DDE900100E1D /* play_pause.scpt */,
+				2F5480EE19B7DDE900100E1D /* volume_decrease.scpt */,
+				2F12E9221985706000A5AB51 /* AppDelegate.h */,
+				2F12E9231985706000A5AB51 /* AppDelegate.m */,
+				2F12E9251985706000A5AB51 /* MainMenu.xib */,
+				2F12E9281985706000A5AB51 /* BLETest.xcdatamodeld */,
+				2F12E9171985706000A5AB51 /* Supporting Files */,
+			);
+			name = Dial;
+			path = BLETest;
+			sourceTree = "<group>";
+		};
+		2F12E9171985706000A5AB51 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2F12E9181985706000A5AB51 /* BLETest-Info.plist */,
+				2F12E9191985706000A5AB51 /* InfoPlist.strings */,
+				2F12E91C1985706000A5AB51 /* main.m */,
+				2F12E91E1985706000A5AB51 /* BLETest-Prefix.pch */,
+				2F12E91F1985706000A5AB51 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F12E90C1985706000A5AB51 /* Dial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F12E92D1985706000A5AB51 /* Build configuration list for PBXNativeTarget "Dial" */;
+			buildPhases = (
+				2F12E9091985706000A5AB51 /* Sources */,
+				2F12E90A1985706000A5AB51 /* Frameworks */,
+				2F12E90B1985706000A5AB51 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Dial;
+			productName = BLETest;
+			productReference = 2F12E90D1985706000A5AB51 /* BLETest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F12E9051985706000A5AB51 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Patrick mccabe";
+			};
+			buildConfigurationList = 2F12E9081985706000A5AB51 /* Build configuration list for PBXProject "Dial" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2F12E9041985706000A5AB51;
+			productRefGroup = 2F12E90E1985706000A5AB51 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F12E90C1985706000A5AB51 /* Dial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F12E90B1985706000A5AB51 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F12E91B1985706000A5AB51 /* InfoPlist.strings in Resources */,
+				2F12E9211985706000A5AB51 /* Credits.rtf in Resources */,
+				2F12E9271985706000A5AB51 /* MainMenu.xib in Resources */,
+				2F5480EF19B7DDE900100E1D /* mute.scpt in Resources */,
+				2F5480F019B7DDE900100E1D /* next.scpt in Resources */,
+				2F5480F119B7DDE900100E1D /* play_pause.scpt in Resources */,
+				2F5480F219B7DDE900100E1D /* volume_decrease.scpt in Resources */,
+				2F5480F419B7DDF400100E1D /* back.scpt in Resources */,
+				2F5480F619B7DF7500100E1D /* volume_increase.scpt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F12E9091985706000A5AB51 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F12E91D1985706000A5AB51 /* main.m in Sources */,
+				2F12E9241985706000A5AB51 /* AppDelegate.m in Sources */,
+				2F12E92A1985706000A5AB51 /* BLETest.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2F12E9191985706000A5AB51 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F12E91A1985706000A5AB51 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2F12E91F1985706000A5AB51 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F12E9201985706000A5AB51 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2F12E9251985706000A5AB51 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F12E9261985706000A5AB51 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F12E92B1985706000A5AB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		2F12E92C1985706000A5AB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		2F12E92E1985706000A5AB51 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETest/BLETest-Prefix.pch";
+				INFOPLIST_FILE = "BLETest/BLETest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/RFduino-master/system/CMSIS/CMSIS/Lib/ARM\"",
+					"\"$(SRCROOT)/../../Desktop/RFduino-master/variants/RFduino\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2F12E92F1985706000A5AB51 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "BLETest/BLETest-Prefix.pch";
+				INFOPLIST_FILE = "BLETest/BLETest-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/../../Desktop/RFduino-master/system/CMSIS/CMSIS/Lib/ARM\"",
+					"\"$(SRCROOT)/../../Desktop/RFduino-master/variants/RFduino\"",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F12E9081985706000A5AB51 /* Build configuration list for PBXProject "Dial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F12E92B1985706000A5AB51 /* Debug */,
+				2F12E92C1985706000A5AB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F12E92D1985706000A5AB51 /* Build configuration list for PBXNativeTarget "Dial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F12E92E1985706000A5AB51 /* Debug */,
+				2F12E92F1985706000A5AB51 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		2F12E9281985706000A5AB51 /* BLETest.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				2F12E9291985706000A5AB51 /* BLETest.xcdatamodel */,
+			);
+			currentVersion = 2F12E9291985706000A5AB51 /* BLETest.xcdatamodel */;
+			path = BLETest.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 2F12E9051985706000A5AB51 /* Project object */;
+}
